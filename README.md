@@ -77,7 +77,7 @@ Instead pin to the release tag (e.g. `?ref=tags/x.y.z`) of one of our [latest re
 
 ```hcl
 module "s3-static-site" {
-  source = "git::https://gitlab.com/guardianproject-ops/terraform-aws-s3-static-site?ref=master"
+  source = "git::https://gitlab.com/guardianproject-ops/terraform-aws-s3-static-site?ref=main"
   context = module.this.context
 }
 ```
@@ -93,7 +93,9 @@ GitLab) to deploy a webapp into the bucket.
 
 ## Requirements
 
-No requirements.
+| Name | Version |
+|------|---------|
+| <a name="requirement_terraform"></a> [terraform](#requirement\_terraform) | >= 0.15.0 |
 
 ## Providers
 

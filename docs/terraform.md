@@ -4,7 +4,9 @@ GitLab) to deploy a webapp into the bucket.
 
 ## Requirements
 
-No requirements.
+| Name | Version |
+|------|---------|
+| <a name="requirement_terraform"></a> [terraform](#requirement\_terraform) | >= 0.15.0 |
 
 ## Providers
 
